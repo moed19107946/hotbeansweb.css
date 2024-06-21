@@ -1,0 +1,318 @@
+body{
+    background-image: url(photos/pic5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+/* COdes For Navigation Bar Starts there  :) */
+.img-main{
+    width: 100%;
+}
+.Transfer {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: none;
+    background-color: rgba(59, 115, 160, 0.1);
+    backdrop-filter: blur(6px);
+}
+.Transfer, ul, li, a{
+    color: rgb(139, 95, 95);
+    font-size: 20px;
+    font-weight: 620;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    padding-left: 30px;
+}
+.navbar, .logo, a{
+    font-size: large;
+}
+.links-1{
+    position: relative;
+}
+.links-1.links-1::after { 
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: rgb(0, 183, 255);
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+
+.links-1:hover::after,
+.links-1:focus::after{
+    opacity: 1;
+}
+.btn-1{
+    margin: 30px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    background: none;
+
+}
+
+
+
+.btn-1, a{
+    font-size: 15px;
+}
+
+.links, li{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.links, li, a{
+    text-decoration: none;
+}
+
+
+/* Code for the Navigation Bar ends here :) */
+
+
+ 
+
+/* Code for the Main page starts here :) */
+
+
+
+
+
+
+.container{
+  margin: 200px 50px 0px 100px;
+}
+
+
+
+
+
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f293;
+  backdrop-filter: blur(6px);
+  padding: 20px;
+}
+
+
+
+label{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer {
+    margin-top: 410px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  .footer > * {
+    flex:  1 100%;
+  }
+  
+  .footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  }
+  
+  .footer__logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+  
+  .footer__addr h2 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .nav__title {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .footer address {
+    font-style: normal;
+    color: #999;
+  }
+  
+  .footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(33, 33, 33, 0.07);
+    border-radius: 100px;
+    color: #2f2f2f;
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li {
+    line-height: 2em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer__nav {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+  }
+  
+  .nav__ul a {
+    color: #999;
+  }
+  
+  .nav__ul--extra {
+    column-count: 2;
+    column-gap: 1.25em;
+  }
+  
+  .legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+  }
+    
+  .legal__links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heart {
+    color: #2f2f2f;
+  }
+  
+  @media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+      flex: 1;
+    }
+    
+    .nav__item--extra {
+      flex-grow: 2;
+    }
+    
+    .footer__addr {
+      flex: 1 0px;
+    }
+    
+    .footer__nav {
+      flex: 2 0px;
+    }
+  }
